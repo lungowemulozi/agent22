@@ -1,7 +1,11 @@
 #!bin/bash
 
-lscpu
-lsbk
-ls
-free -m
 
+
+if 
+
+	[ {${UID} -ne 0] 
+
+	then 
+
+		echo "you need root access"
